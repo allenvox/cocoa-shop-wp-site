@@ -1,0 +1,1 @@
+put all the contents into your .htdocs folder to make it work :)
