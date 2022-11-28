@@ -1,0 +1,10 @@
+2022-11-28T03:07:03+00:00 CRITICAL Uncaught Exception: Invalid post. in /Applications/MAMP/htdocs/wp-content/plugins/elementor/core/settings/page/manager.php:101
+Stack trace:
+#0 /Applications/MAMP/htdocs/wp-content/plugins/elementor/core/base/document.php(1629): Elementor\Core\Settings\Page\Manager->ajax_before_save_settings(Array, NULL)
+#1 /Applications/MAMP/htdocs/wp-content/plugins/elementor/core/base/document.php(790): Elementor\Core\Base\Document->save_settings(Array)
+#2 /Applications/MAMP/htdocs/wp-content/plugins/elementor/core/kits/manager.php(295): Elementor\Core\Base\Document->update_settings(Array)
+#3 /Applications/MAMP/htdocs/wp-content/plugins/elementor/core/kits/manager.php(457): Elementor\Core\Kits\Manager->update_kit_settings_based_on_option('site_name', 'cocoa store')
+#4 /Applications/MAMP/htdocs/wp-includes/class-wp-hook.php(310): Elementor\Core\Kits\Manager->Elementor\Core\Kits\{closure}('cocoastore', 'cocoa store')
+#5 /Applications/MAMP/htdocs/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#6 /Applica in /Applications/MAMP/htdocs/wp-content/plugins/elementor/core/settings/page/manager.php on line 101
+

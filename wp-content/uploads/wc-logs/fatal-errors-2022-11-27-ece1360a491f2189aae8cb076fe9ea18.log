@@ -1,0 +1,4 @@
+2022-11-27T15:58:43+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /Applications/MAMP/htdocs/wp-includes/class-wp-image-editor-gd.php on line 208
+
+2022-11-27T16:00:02+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /Applications/MAMP/htdocs/wp-includes/class-wp-image-editor.php on line 576
+
